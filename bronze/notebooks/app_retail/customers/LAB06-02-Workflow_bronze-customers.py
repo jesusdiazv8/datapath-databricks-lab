@@ -7,7 +7,7 @@ dir_output = "dbfs:/mnt/dlk/bronze/app_retail/customers/data"
 
 df_customers\
  .write\
- .format("parquet")\
+ .format("delta")\
  .mode("overwrite")\
  .save(dir_output)
 
