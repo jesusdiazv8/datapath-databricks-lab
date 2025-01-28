@@ -6,3 +6,7 @@
 
 
 dbutils.fs.cp("/databricks-datasets/retail-org/customers/customers.csv", "/mnt/dlk/landing/app_retail/customers/customers.csv")
+
+# COMMAND ----------
+
+print("El proceso finalizo correctamente")
